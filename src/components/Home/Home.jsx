@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className='container-fluid img-fluid banner'>
+      <div className='container-fluid img-fluid banner_home'>
         <div className="banner1">
           <div className="banner_text1">
           <p className='text_banner'>
@@ -14,22 +14,8 @@ function Home() {
           </p>
           <p className='text_banner1'>Créer un avenir numérique solide avec nos services de développement informatique de pointe </p>
           <div className="boutton2">
-            <button className="btn_header">
-              <div className="i_btn">
-                <i className='fa fa-calendar'></i>
-              </div>
-              <div className="p_btn">
-                <p>Besoin de plus d’information?</p>
-              </div>         
-            </button>
-            <button className="btn_header1">
-              <div className="i_btn1">
-                <i className='fa fa-phone'></i>
-              </div>
-              <div className="p_btn1">
-                <p>Discutons de vos projets !</p>
-              </div>         
-            </button>
+            <button className="btn_accueil"><i className='fa fa-calendar '></i><span className='span_accueil'>Besoin de plus d’information ?</span></button>
+            <button  className="btn_accueil1"><i className='fa fa-phone'></i><span className='span_accueil'>Discutons de vos projets !</span></button>         
           </div>
         </div>
         </div>

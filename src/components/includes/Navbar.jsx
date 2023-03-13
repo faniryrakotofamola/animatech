@@ -3,9 +3,9 @@ import "./css/Navbar.css"
 
 function Navbar() {
   return (
-      <div className="container-fluid">
+      <div className="container-fluid navbar1">
 
-          <nav className="navbar navbar-expand-lg navbar-light">
+          <nav className="navbar navbar-expand-lg navbar-light ">
             <a className="navbar-brand" href="#">
               <img src="/imagesAnima/Logo.png" className='logo' alt="logo" />
              
@@ -22,7 +22,7 @@ function Navbar() {
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Développement Informatique
-                    <i class="fa fa-angle-down ml-1 font-weight-bold" aria-hidden="true"></i>
+                    <i className="fa fa-angle-down ml-1 font-weight-bold" aria-hidden="true"></i>
                   
                   </a>
                   <div className="dropdown-menu dropdown1">
@@ -35,7 +35,7 @@ function Navbar() {
                 <li className="nav-item dropdown ">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     La société
-                     <i class="fa fa-angle-down ml-1 font-weight-bold" aria-hidden="true"></i>
+                     <i className="fa fa-angle-down ml-1 font-weight-bold" aria-hidden="true"></i>
                   </a>
                   <div className="dropdown-menu dropdown2">
                     <a className="dropdown-item dropdown-item1" href="#">Réalisations</a>
