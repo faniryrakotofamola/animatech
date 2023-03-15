@@ -49,10 +49,101 @@ export default class AvisClient extends Component {
           }}
         >
         </div>
-      )
+      ),
+      // responsive: [
+      //   {
+      //     breakpoint: 992,
+      //     settings: {
+      //       slidesToShow: 3,
+      //       slidesToScroll: 3,
+      //       infinite: true,
+      //       dots: true
+      //     }
+      //   },
+      //   {
+      //     breakpoint: 768,
+      //     settings: {
+      //       slidesToShow: 2,
+      //       slidesToScroll: 2,
+      //       initialSlide: 1
+      //     }
+      //   },
+      //   {
+      //     breakpoint: 576,
+      //     settings: {
+      //       slidesToShow: 1,
+      //       slidesToScroll: 1,
+      //       initialSlide: 2
+      //     }
+      //   },
+      //   {
+      //     breakpoint: 480,
+      //     settings: {
+      //       slidesToShow: 1,
+      //       slidesToScroll: 1,
+      //       dots: false
+      //     }
+      //   }
+      // ]
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            infinite: true,
+            dots: true
+          }
+        },
+         {
+          breakpoint: 991,
+          settings: {
+            dots: false
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            dots: false
+          }
+        },
+         {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false
+          }
+        }
+      ]
     };
     return (
+      
       <div>
+        <div className="container-fluid">
+          <h1 className="titre_avis">Les avis de nos clients</h1>
+        </div>
         <Slider {...settings}>
           <div className="container-fluid">
             <div className="row">
@@ -251,3 +342,4 @@ export default class AvisClient extends Component {
     );
   }
 }
+
