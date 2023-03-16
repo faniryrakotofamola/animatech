@@ -33,7 +33,7 @@ export default function DevMobile() {
         </div>
       </section>
       <div className="section2">
-        <div className="container-fluid">
+        <div className="container-fluid cf_devmob">
           <div className="row row1">
             <div className="col-lg-8 col-lx-8 col-md-12 col1_section2">
               <p className='p_section2'>
@@ -45,7 +45,7 @@ export default function DevMobile() {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
+        <div className="container-fluid cf_devmob">
           <div className="row ">
             <div className="col-lg-4 col2_section2">
               <img src="imagesAnima/devmobile/3.png" className='img1_section2 img2_section2' alt="" />

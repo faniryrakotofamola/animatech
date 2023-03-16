@@ -111,6 +111,15 @@
   letter-spacing: 0.04em;
   color: #F57C09;
 }
+.titre_equipe{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -121,6 +130,17 @@
     padding: 35px 11px;
     border: 1px solid #00000024;
 }
+  .slick-track {
+    height: fit-content !important;
+  }
+  .titre_avis {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #F57C09;
+}
 }
 @media screen and (min-width: 576px) {
   .arrow_left, .arrow_right{
@@ -129,6 +149,9 @@
   .p_h2 {
     width: 232px;
     font-size: 12px;
+}
+.slick-track {
+    height: fit-content !important;
 }
 }
 @media screen and (min-width: 769px) {
