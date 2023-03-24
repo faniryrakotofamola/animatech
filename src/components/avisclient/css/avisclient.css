@@ -1,6 +1,14 @@
 *{
     font-family: 'Montserrat';
 }
+.cf_avis{
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
+.cf_section_recrutement{
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
 
 .col1_avis , .content_avis{
     display: flex;
@@ -120,6 +128,10 @@
   text-transform: capitalize;
   color: #FFFFFF;
 }
+.slick-slider {
+    height: fit-content !important;
+    padding: 25px 0;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -147,68 +159,71 @@
     display: none ;
   }
   .p_h2 {
-    width: 232px;
+    width: 338px;
     font-size: 12px;
 }
-.slick-track {
-    height: fit-content !important;
+  .slick-track {
+      height: fit-content !important;
+  }
+  .titre_avis {
+      line-height: 43px;
+  }
+  .content_avis {
+    padding: 34px 32px;
+  }
 }
+@media screen and (width >= 768px) {
+  .p_h2 {
+      width: 270px;
+      font-size: 12px;
+  }
+  .content_avis {
+    padding: 34px 21px;
 }
-@media screen and (min-width: 769px) {
 .p_h2 {
-    width: 204px;
+    width: 260px;
     font-size: 12px;
 }
+  
 }
-@media screen and (width: 768px) {
+/* @media screen and (width <= 768px) {
   .p_h2 {
     width: 322px;
     font-size: 14px;
 }
-}
-@media (min-width: 880px) and (max-width: 992px) {
+} */
+/* @media (min-width: 880px) and (max-width: 992px) {
 .p_h2 {
     width: 242px;
     font-size: 12px;
 ;
 }
-}
+} */
 @media screen and (min-width: 992px) {
   .content_avis {
     padding: 34px 16px;
     border: 1px solid #00000024;
   }
   .p_h2 {
-    width: 288px;
-    height: -moz-fit-content;
-    height: fit-content;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 17px;
-    text-align: center;
-    color: #000000;
-    margin: 0;
+    width: 311px;
   }
   .span1_avis {
     font-size: 10px;
   }
+  .content_avis {
+    padding: 34px 32px;
+  }
+}
+@media screen and (width: 1199px) {
+  
 }
 @media screen and (min-width: 1200px) {
  .content_avis {
-  padding: 34px 27px;
-}
-  .p_h2{
-  width: 322px;
-  height: fit-content;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #000000;
-  margin: 0;
-}
+    padding: 34px 16px;
+  }
+  .p_h2 {
+    width: 306px;
+  }
 }
 @media screen and (min-width: 1400px) {
    .content_avis {

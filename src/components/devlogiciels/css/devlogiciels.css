@@ -1,0 +1,52 @@
+.banner_devlogiciel{
+  background-image: url(/public/imagesAnima/devlogiciel/bgimage.PNG);
+}
+.img1_logiciels{
+  background-image: url(/public/imagesAnima/devlogiciel/1.png);
+}
+.img2_logiciels{
+    background-image: url(/public/imagesAnima/devlogiciel/2.png);
+}
+.img3_logiciels{
+    background-image: url(/public/imagesAnima/devlogiciel/3.png);
+}
+.img4_logiciels{
+    background-image: url(/public/imagesAnima/devlogiciel/4.png);
+    border-bottom-right-radius: 50px;
+
+}
+
+.row1_section3_devlogiciel{
+  padding: 0 !important;
+}
+
+@media screen and (max-width:576px) {
+  .img4_logiciels {
+    border-bottom-right-radius: 0;
+  }
+  .p_section2_logiciels {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+}
+@media screen and (min-width:576px) {
+  .img4_logiciels {
+    border-bottom-right-radius: 0;
+}
+}
+@media screen and (min-width:768px) {
+  .img4_logiciels {
+    border-bottom-right-radius: 0;
+}
+}
+@media screen and (min-width:992px) {
+  .img4_logiciels {
+    border-bottom-right-radius: 50px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .img4_logiciels {
+    border-bottom-right-radius: 50px;
+  }
+}

@@ -1,0 +1,244 @@
+.cf_footer{
+    background: linear-gradient(101deg, #150B42 5.02%, #3D065F 96.31%);
+    padding-top: 80px!important;
+    padding-bottom: 80px !important;
+  }
+.h1_footer{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.p_footer {
+  width: 548px;
+  height: fit-content;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding: 52px 0;
+}
+.btn_email_footer{
+  padding: 8px 25px;
+  background: #D8156E;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  width: 25%;
+}
+.input_email_footer {
+  padding: 10px 24px;
+  gap: 10px;
+  width: 412px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+.content_footer{
+  padding: 32px;
+  gap: 50px;
+  width: 612px;
+  height: fit-content;
+  background: rgba(236, 219, 186, 0.1);
+}
+
+.reseau_sociaux_footer{
+  width: 612px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 56px;
+  padding-top: 25px;
+}
+.fa_footer{
+  margin-right: 28px;
+}
+.img_footer {
+  width: 321.64px;
+  height: auto;
+}
+.col_footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.telephone {
+  display: flex;
+  position: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: right;
+  padding-top: 111px;
+  color: white;
+  font-size: 14px;
+}
+.span_footer_numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.span_footer_email{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail_and_phone{
+  font-size: 24px;
+  padding: 0 8px;
+}
+.appel{
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+}
+@media screen and (max-width: 576px) {
+  .content_footer {
+    width: 100%;
+  }
+  .h1_portfolio {
+    padding: 30px 0;
+}
+  .p_footer {
+    width: 100%;
+    font-size: 16px;
+  }
+  .reseau_sociaux_footer {
+    width: 100%;
+  }
+  .telephone {
+    width: 100%; 
+    display: block;
+    padding-top: 50px;
+  }
+  .input_email_footer {
+    padding: 10px 24px;
+    gap: 10px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+  }
+  .reseau_sociaux_footer {
+    font-size: 42px; 
+    margin-left: 8px;
+  }   
+  .fa_footer {
+    margin-right: 20px;
+  }
+  .h1_footer {
+    width: 100%;
+    font-size: 24px;
+  }
+  .btn_email_footer {
+    margin-top: 9px;
+    padding: 8px 13px;
+    background: #D8156E;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 36%;
+}
+  .img_footer {
+    width: 271px;
+    height: auto;
+}
+}
+
+@media screen and (min-width: 576px) {
+
+  .content_footer {
+    width: 100%;;
+  }
+  .h1_portfolio {
+    padding: 30px 0;
+}
+  .p_footer {
+    width: 100%;
+  }
+  .input_email_footer {
+    width: 75%;
+  }
+  .reseau_sociaux_footer {
+        width: 100%;
+    height: -moz-fit-content;
+    height: 16%;
+    /* height: fit-content; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+  .telephone {
+    display: block;
+    width: 100%;
+    line-height: 33px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .telephone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 74px;
+}
+}
+
+@media screen and (min-width: 992px) {
+  .btn_email_footer {
+    padding: 8px 10px;
+    font-size: 19px;
+}
+  .telephone {
+  width: 100%;
+  font-size: 9.7px;
+  justify-content: flex-end;
+  /* padding-top: 0; */
+}
+  .col_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+  .reseau_sociaux_footer {
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .telephone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1400px) {
+.reseau_sociaux_footer {
+    height: 16%;
+}
+}

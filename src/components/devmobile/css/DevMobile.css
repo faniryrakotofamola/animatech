@@ -239,6 +239,7 @@
     width: fit-content;
     font-size: 14px;
     margin: 0;
+    text-transform: none;
 }
 .img_section1 {
     width: 460px;

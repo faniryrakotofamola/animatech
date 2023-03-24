@@ -1,25 +1,34 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
-import AvisClient from './components/avisclient/AvisClient';
+import Contact from './components/contact/Contact';
+import Design from './components/designdemarque/Design';
+import DevLogiciels from './components/devlogiciels/DevLogiciels';
 import DevMobile from './components/devmobile/DevMobile';
 import DevWeb from './components/devweb/DevWeb';
-import Equipe from './components/equipe/Equipe';
 import ErrorPage from './components/error/ErrorPage';
-import Navbar from './components/includes/Navbar';
+// import Footer from './components/includes/Footer';
+// import Navbar from './components/includes/Navbar';
+// import OutilsEtTechnologies from './components/includes/OutilsEtTechnologies';
 import Realisation from './components/realisation/Realisation';
+import Recrutement from './components/recrutement/Recrutement';
 
 function App() {
   return (
     <Router >
       <Routes >
         <Route path="/" exact element={<Home />} />
-        <Route path="/navbar" exact element={<Navbar />} />
+        {/* <Route path="/navbar" exact element={<Navbar />} /> */}
+        {/* <Route path="/footer" exact element={<Footer />} /> */}
         <Route path="/devweb" exact element={<DevWeb />} />
         <Route path="/devmobile" exact element={<DevMobile />} />
+        <Route path="/devlogiciels" exact element={<DevLogiciels />} />
         <Route path="/réalisation" exact element={<Realisation />} />
-        <Route path="/avisclient" exact element={<AvisClient />} />
-        <Route path="/equipe" exact element={<Equipe />} />
+        {/* <Route path="/avisclient" exact element={<AvisClient />} /> */}
+        <Route path="/design" exact element={<Design />} />
+        <Route path="/contact" exact element={<Contact />} />
+        <Route path="/recrutement" exact element={<Recrutement />} />
+        {/* <Route path="/outils" exact element={<OutilsEtTechnologies />} /> */}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>

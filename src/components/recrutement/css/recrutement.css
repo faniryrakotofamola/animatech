@@ -1,0 +1,83 @@
+.cf_recrutement{
+  background-image: url(/public/imagesAnima/recrutement//bg.png);
+}
+
+.col1_recrutement::after{
+  display: none;
+}
+.content_recutement_section1 {
+    border: 4px solid transparent;
+}
+.h1_1_recrutement{
+      line-height: 34px;
+}
+.content2_recutement_section1{
+  align-items: flex-end;
+}
+.p_1_recrutement{
+  text-align: right;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+  .p_1_recrutement {
+    text-align: left;
+  }
+  .content2_recutement_section1 {
+    align-items: flex-start;
+  }
+  .cf_section_recrutement {
+    padding-top: 40px !important;
+    padding-bottom: 0px !important;
+}
+  .h1_recrutement{
+    line-height: 80px;
+  }
+}
+@media screen and (min-width:576px) {
+   .p_1_recrutement {
+    text-align: left;
+  }
+  .content2_recutement_section1 {
+    align-items: flex-start;
+  }
+  .cf_section_recrutement {
+    padding-top: 40px !important;
+    padding-bottom: 0px !important;
+}
+.h1_recrutement{
+    line-height: 80px;
+  }
+}
+@media screen and (min-width:768px) {
+   .p_1_recrutement {
+    text-align: left;
+  }
+  .content2_recutement_section1 {
+    align-items: flex-start;
+  }
+  .cf_section_recrutement {
+    padding-top: 40px !important;
+    padding-bottom: 0px !important;
+}
+}
+@media screen and (min-width:992px) {
+  .content2_recutement_section1{
+  align-items: flex-end;
+}
+.p_1_recrutement{
+  text-align: right;
+}
+
+}
+@media screen and (min-width:1200px) {
+  .content2_recutement_section1{
+  align-items: flex-end;
+}
+.p_1_recrutement{
+  text-align: right;
+}
+
+}

@@ -1,6 +1,10 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
+.bg_home {
+  background: linear-gradient(101deg, #150B42 5.02%, #3D065F 96.31%);
+}
+
 .container{
   width: 100% !important;
 }
@@ -28,7 +32,7 @@
 }
 .text_banner{
   line-height: 76.4px;
-      margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 
 }
 .anima , .techno{
@@ -59,6 +63,9 @@
   order: 1;
   flex-grow: 0
 }
+
+
+/* ***************le bouton anak 2 *******  */
 .btn_accueil{
   background: #D8156E;
   border-radius: 40px;
@@ -69,12 +76,10 @@
 }
 
 
+
 .boutton2{
   display: flex;
 }
-
-/* ***************le bouton anak 2 *******  */
-
 .btn_accueil1{
   background: transparent;
   color:  #D8156E;
@@ -84,22 +89,199 @@
   margin-left: 20px;
   font-size: 17px;
 }
+
+.btn_accueil:hover{
+  color: #D8156E;
+  background: #dcdbdb;
+}
+.btn_accueil1:hover{
+  background: #E8750D;
+  color:  white;
+  border: 1px solid transparent;
+
+}
 .span_accueil{
   margin-left: 12px;
 }
-
-@media screen and (min-width: 576px){
-  .text_banner1 {
-    font-size: 10px;
-
+.col1_section2_Home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
-  .btn_accueil{
-    padding: 15px 30px;
-    font-size: 8px;
+.h1_home{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.p_section2_home{
+  text-transform: inherit;
+  /* font-size: 18px; */
+}
+.tab1{
+  justify-content: space-around;
+}
+.box_tab1{
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  margin-bottom: 8px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.nav-pills .nav-item .active{
+  background-color: #D8156E;
+}
+.h1_portfolio{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  text-align: center;
+}
+.nav-pills .nav-item{
+  width: 124px;
+  height: 41px;
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav_link_portfolio {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    padding: 7px 30px;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 576px){
+  .banner_home {
+    height: 80vh;
+    background-size: 100% 80vh; 
+}
+  .banner_text1 {
+      width: fit-content;
+      height: 204px;
+      text-align: center;
   }
+  .btn_accueil , .btn_accueil1 {
+    width: fit-content; 
+  }
+  .btn_accueil {
+    background: #D8156E;
+    border-radius: 40px;
+    color: #FFFFFF;
+    border: transparent;
+    padding: 15px 30px;
+    font-size: 15.2px;
+}
+  .boutton2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text_banner1 {
+    width: 100%;
+    height: fit-content;
+}
+  .btn_accueil1{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .anima, .techno {
+    font-size: 42px;
+}
+  .text_banner {
+    line-height: 54.4px;
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (min-width: 576px){
+    .banner_home {
+    height: 69vh;
+    background-size: 100% 70vh;
+}
+  .banner_text1 {
+    width: fit-content;
+    height: 204px;
+  }
+  .text_banner1 {
+    width: fit-content;
+    font-size: 14px;
+  }
+  .text_banner {
+    line-height: 55.4px;
+    margin-bottom: 0 !important;
+  }
+ .anima, .techno {
+    font-size: 66px;
+  }
+   .boutton2 {
+    display: block;  
+}
+  .btn_accueil {
+    padding: 15px 16px;
+    font-size: 11px;
+}
   .btn_accueil1 {
-    font-size: 9px;
+    padding: 15px 16px;
+    font-size: 12px;
 }
 }
-
-
+@media screen and (min-width: 768px){
+  .anima, .techno {
+    font-size: 80px;
+  }
+  .text_banner1 {
+    font-size: 18px;
+  }
+  .btn_accueil{
+  background: #D8156E;
+  border-radius: 40px;
+  color: #FFFFFF;
+  border: transparent;
+  padding: 15px 30px;
+  font-size: 15px;
+}
+.boutton2{
+  display: flex;
+  justify-content: flex-start;
+}
+/* ***************le bouton anak 2 *******  */
+.btn_accueil1{
+  background: transparent;
+  color:  #D8156E;
+  border: 1px solid #D8156E;
+  border-radius: 40px;
+  padding: 15px 28px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+}
+@media screen and (min-width: 992px){
+  .text_banner {
+    line-height: 61.4px;
+    margin-bottom: 0 !important;
+  }
+  .anima, .techno {
+      font-size: 87px;
+  }
+  .text_banner1 {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width:1200px){
+  .banner_home {
+    height: 80vh;
+    background-size: 100% 81vh;
+}
+}

@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from '../includes/Footer';
 import Navbar from '../includes/Navbar';
+import OutilsEtTechnologiesMobiles from '../includes/OutilsEtTechnologiesMobile';
 import './css/DevMobile.css';
 
 export default function DevMobile() {
@@ -10,7 +12,7 @@ export default function DevMobile() {
         <div className="content">
           <h1 className='h1_devmobile'>
             Développement <br />
-            <span className='span_devmobile'>Mobile</span>  
+            <span className='span_devmobile'>Mobile</span>
           </h1>
           <p className='p_content'>Conception et développement mobile : Android, iOS et Applications natives ou hybrides, Interfaces ergonomiques et intuitives avec des fonctionnalités mobiles innovantes : QR Code NFC… Notre équipe de développeurs d’applications mobiles prend en charge tous types de projets. Pour votre première application mobile, choisissez une équipe qui sera attentive à toutes vos exigences.</p>
         </div>
@@ -52,14 +54,16 @@ export default function DevMobile() {
             </div>
             <div className="col-lg-8 col1_section2">
               <p className='p_section2'>
-                  Pour créer une application mobile pour iOS, le langage de programmation utilisé est principalement Objective-C ou Swift. Objective-C est un langage de programmation orienté objet et il était le principal langage de programmation pour le développement iOS avant l'introduction de Swift. Swift, également un langage de programmation orienté objet, est maintenant largement utilisé pour développer des applications iOS.<br />
-                  Pour Android, le langage de programmation principal est Java, mais Kotlin est également devenu populaire ces dernières années. Java est un langage de programmation orienté objet qui est utilisé depuis longtemps pour le développement d'applications Android. Kotlin, en revanche, est plus récent et a été introduit en 2011. Il est considéré comme plus concis et plus sûr que Java, et est devenu rapidement populaire pour le développement d'applications Android.<br />
-                  En outre, pour développer des applications mobiles iOS et Android, il est également possible d'utiliser des cadres de développement multi plateformes tels que React Native, Flutter et Xamarin, qui permettent aux développeurs de coder une seule application qui peut être utilisée à la fois sur iOS et Android. Ces cadres utilisent généralement des langages de programmation tels que JavaScript, Dart ou C#.
+                Pour créer une application mobile pour iOS, le langage de programmation utilisé est principalement Objective-C ou Swift. Objective-C est un langage de programmation orienté objet et il était le principal langage de programmation pour le développement iOS avant l'introduction de Swift. Swift, également un langage de programmation orienté objet, est maintenant largement utilisé pour développer des applications iOS.<br />
+                Pour Android, le langage de programmation principal est Java, mais Kotlin est également devenu populaire ces dernières années. Java est un langage de programmation orienté objet qui est utilisé depuis longtemps pour le développement d'applications Android. Kotlin, en revanche, est plus récent et a été introduit en 2011. Il est considéré comme plus concis et plus sûr que Java, et est devenu rapidement populaire pour le développement d'applications Android.<br />
+                En outre, pour développer des applications mobiles iOS et Android, il est également possible d'utiliser des cadres de développement multi plateformes tels que React Native, Flutter et Xamarin, qui permettent aux développeurs de coder une seule application qui peut être utilisée à la fois sur iOS et Android. Ces cadres utilisent généralement des langages de programmation tels que JavaScript, Dart ou C#.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <OutilsEtTechnologiesMobiles />
+      <Footer />
     </>
   )
 }
