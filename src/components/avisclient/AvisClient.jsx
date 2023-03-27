@@ -108,7 +108,7 @@ export default class AvisClient extends Component {
     return (
 
       <>
-        <div className="container-fluid cf_avis">
+        <div className="container-fluid cf_avis" data-aos="zoom-in" data-aos-duration="1500">
           <h1 className="titre_avis">Les avis de nos clients</h1>
 
           <Slider {...settings}>

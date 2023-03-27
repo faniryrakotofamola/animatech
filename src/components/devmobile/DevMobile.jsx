@@ -8,7 +8,11 @@ export default function DevMobile() {
   return (
     <>
       <Navbar />
-      <div className="container-fluid cf_devmob container_devmobile">
+      <div className="container-fluid cf_devmob container_devmobile"
+        data-aos="flip-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <div className="content">
           <h1 className='h1_devmobile'>
             Développement <br />
@@ -17,7 +21,7 @@ export default function DevMobile() {
           <p className='p_content'>Conception et développement mobile : Android, iOS et Applications natives ou hybrides, Interfaces ergonomiques et intuitives avec des fonctionnalités mobiles innovantes : QR Code NFC… Notre équipe de développeurs d’applications mobiles prend en charge tous types de projets. Pour votre première application mobile, choisissez une équipe qui sera attentive à toutes vos exigences.</p>
         </div>
       </div>
-      <section className="section1">
+      <section className="section1" data-aos="zoom-in" data-aos-duration="1500">
         <div className="container-fluid">
           <div className="row pt-5 pb-5">
             <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col1_section1">
@@ -35,7 +39,7 @@ export default function DevMobile() {
         </div>
       </section>
       <div className="section2">
-        <div className="container-fluid cf_devmob">
+        <div className="container-fluid cf_devmob" data-aos="fade-up" data-aos-duration="1500">
           <div className="row row1">
             <div className="col-lg-8 col-lx-8 col-md-12 col1_section2">
               <p className='p_section2'>
@@ -47,7 +51,7 @@ export default function DevMobile() {
             </div>
           </div>
         </div>
-        <div className="container-fluid cf_devmob">
+        <div className="container-fluid cf_devmob" data-aos="fade-right" data-aos-duration="1500">
           <div className="row ">
             <div className="col-lg-4 col2_section2">
               <img src="imagesAnima/devmobile/3.png" className='img1_section2 img2_section2' alt="" />

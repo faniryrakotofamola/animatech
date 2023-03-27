@@ -10,10 +10,15 @@ import ErrorPage from './components/error/ErrorPage';
 // import Footer from './components/includes/Footer';
 // import Navbar from './components/includes/Navbar';
 // import OutilsEtTechnologies from './components/includes/OutilsEtTechnologies';
+import Aos from 'aos';
+import { useEffect } from 'react';
 import Realisation from './components/realisation/Realisation';
 import Recrutement from './components/recrutement/Recrutement';
 
 function App() {
+  useEffect(() => {
+    Aos.init()
+  })
   return (
     <Router >
       <Routes >

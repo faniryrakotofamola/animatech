@@ -28,7 +28,7 @@ export default function DevLogiciels() {
           </p>
         </div>
         <div className="section3">
-          <div className="row row1_section3 row1_section3_devlogiciel">
+          <div className="row row1_section3 row1_section3_devlogiciel" data-aos="fade-up" data-aos-duration="1500">
             <div className="col-lg-6 img1_section3 img1_1_section3 img1_logiciels"></div>
             <div className="col-lg-6 col_row1_section3_devweb col_1_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">
@@ -36,7 +36,7 @@ export default function DevLogiciels() {
               </p>
             </div>
           </div>
-          <div className="row row1_section3 row2_section3 row1_section3_devlogiciel">
+          <div className="row row1_section3 row2_section3 row1_section3_devlogiciel" data-aos="fade-right" data-aos-duration="1500">
 
             <div className="col-lg-6 col_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">
@@ -45,7 +45,7 @@ export default function DevLogiciels() {
             </div>
             <div className="col-lg-6 img1_section3 img2_section3 img2_logiciels"></div>
           </div>
-          <div className="row row1_section3 row1_section3_devlogiciel">
+          <div className="row row1_section3 row1_section3_devlogiciel" data-aos="fade-up" data-aos-duration="1500">
             <div className="col-lg-6 img1_section3 img3_section3 img3_logiciels"></div>
             <div className="col-lg-6 col_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">
@@ -53,7 +53,7 @@ export default function DevLogiciels() {
               </p>
             </div>
           </div>
-          <div className="row row1_section3 row2_section3 row1_section3_devlogiciel">
+          <div className="row row1_section3 row2_section3 row1_section3_devlogiciel" data-aos="fade-right" data-aos-duration="1500">
 
             <div className="col-lg-6 col_row1_section3_devweb col_4_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">

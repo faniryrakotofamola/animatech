@@ -1,3 +1,5 @@
+// import AOS from 'aos';
+// import "aos/dist/aos.css";
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../devmobile/css/DevMobile.css';
@@ -6,10 +8,18 @@ import Navbar from '../includes/Navbar';
 import "./css/Home.css";
 
 function Home() {
+
+  // useEffect(() => {
+  //   AOS.init()
+  // })
+
   return (
     <>
       <Navbar />
-      <div className='container-fluid img-fluid banner_home'>
+      <div className='container-fluid img-fluid banner_home'
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
         <div className="banner1">
           <div className="banner_text1">
             <p className='text_banner'>
@@ -28,8 +38,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="section2">
-        <div className="container-fluid cf_devmob">
+      <div className="section2" >
+        <div className="container-fluid cf_devmob" data-aos="fade-up"  >
           <div className="row row1">
             <div className="col-lg-8 col-lx-8 col-md-12 col1_section2_Home">
               <h1 className='h1_home'>Développement web</h1>
@@ -41,8 +51,8 @@ function Home() {
               <img src="imagesAnima/acceuil/1.png" className='img1_section2' alt="" />
             </div>
           </div>
-        </div>
-        <div className="container-fluid cf_devmob">
+        </div >
+        <div className="container-fluid cf_devmob" data-aos="fade-right" data-aos-duration="1500" >
           <div className="row ">
             <div className="col-lg-4 col2_section2">
               <img src="imagesAnima/acceuil/2.png" className='img1_section2 img2_section2' alt="" />
@@ -54,9 +64,9 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div >
       <div className="section2">
-        <div className="container-fluid cf_devmob">
+        <div className="container-fluid cf_devmob" data-aos="fade-up" data-aos-duration="2000">
           <div className="row row1">
             <div className="col-lg-8 col-lx-8 col-md-12 col1_section2_Home">
               <h1 className='h1_home'>Développement de logiciels sur mesure</h1>
@@ -68,7 +78,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="container-fluid cf_devmob">
+        <div className="container-fluid cf_devmob" data-aos="fade-right" data-aos-duration="1500">
           <div className="row ">
             <div className="col-lg-4 col2_section2">
               <img src="imagesAnima/acceuil/4.png" className='img1_section2 img2_section2' alt="" />
@@ -83,7 +93,7 @@ function Home() {
         </div>
       </div>
       <div className="section2">
-        <div className="container-fluid cf_devmob">
+        <div className="container-fluid cf_devmob" data-aos="fade-down" data-aos-duration="2000">
           <div className="row row1">
             <div className="col-lg-8 col-lx-8 col-md-12 col1_section2_Home">
               <h1 className='h1_home'>Design de marque</h1>
@@ -98,7 +108,7 @@ function Home() {
         </div>
       </div>
       {/* *************** PORTFOLIO *****************************  */}
-      <div className="container-fluid bg_home">
+      <div className="container-fluid bg_home" data-aos="zoom-in" data-aos-duration="1500">
         <h1 className='h1_portfolio'>PORTFOLIO</h1>
         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li className="nav-item" role="presentation">

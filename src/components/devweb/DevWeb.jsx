@@ -8,7 +8,7 @@ const DevWeb = () => {
   return (
     <>
       <Navbar />
-      <div className="container-fluid banner_devweb">
+      <div className="container-fluid banner_devweb" data-aos="zoom-out-up" data-aos-duration="1500">
         <div className="content_devweb">
           <h1 className="h1_banner_devweb">
             Développement <br /><span className='span_h1_banner_devweb'>web</span>
@@ -19,7 +19,7 @@ const DevWeb = () => {
         </div>
 
       </div>
-      <div className="container-fluid bgcolor_purple cf2_devweb">
+      <div className="container-fluid bgcolor_purple cf2_devweb" data-aos="zoom-in" data-aos-duration="1500">
         <div className="row row0_devweb">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col_for_img">
             <img src="imagesAnima/devweb/1.png" className='img_section1_devweb' alt="" />
@@ -44,17 +44,16 @@ const DevWeb = () => {
             Les grandes étapes du développement d'une application web sont importantes car elles permettent de suivre un processus structuré et méthodique pour créer une application web fonctionnelle, performante et répondant aux besoins des utilisateurs.
           </p>
         </div>
-        <div className="section3">
-          <div className="row row0_devweb row1_section3">
-            <div className="col-lg-6 img1_section3 img1_1_section3"></div>
+        <div className="section3" >
+          <div className="row row0_devweb row1_section3" data-aos="fade-up" data-aos-duration="1500">
+            <div className="col-lg-6 img1_section3 img1_1_section3" ></div>
             <div className="col-lg-6 col_row1_section3_devweb col_1_row1_section3_devweb bgColor_white">
-              <p className="p_section3_devweb">
+              <p className="p_section3_devweb" >
                 <span className='span1_section3_devweb'>Définition des objectifs :</span> La première étape consiste à définir les objectifs de l'application web, les besoins des utilisateurs et les exigences fonctionnelles. Cette étape permet de déterminer les fonctionnalités clés de l'application et de comprendre les attentes des utilisateurs.
               </p>
             </div>
           </div>
-          <div className="row row0_devweb row1_section3 row2_section3">
-
+          <div className="row row0_devweb row1_section3 row2_section3" data-aos="fade-right" data-aos-duration="1500">
             <div className="col-lg-6 col_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">
                 <span className='span1_section3_devweb'>Rédaction du cahier des charges :</span> Cette étape consiste à documenter les spécifications fonctionnelles et techniques de l'application web. Le cahier des charges permet de formaliser les besoins et les attentes du client et de définir les exigences du projet.
@@ -62,7 +61,7 @@ const DevWeb = () => {
             </div>
             <div className="col-lg-6 img1_section3 img2_section3"></div>
           </div>
-          <div className="row row0_devweb row1_section3">
+          <div className="row row0_devweb row1_section3" data-aos="fade-up" data-aos-duration="1500">
             <div className="col-lg-6 img1_section3 img3_section3"></div>
             <div className="col-lg-6 col_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">
@@ -70,7 +69,7 @@ const DevWeb = () => {
               </p>
             </div>
           </div>
-          <div className="row row0_devweb row1_section3 row2_section3">
+          <div className="row row0_devweb row1_section3 row2_section3" data-aos="fade-right" data-aos-duration="1500">
 
             <div className="col-lg-6 col_row1_section3_devweb col_4_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">

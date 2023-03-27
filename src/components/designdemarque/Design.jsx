@@ -18,7 +18,7 @@ export default function Design() {
         </div>
 
       </div>
-      <div className="container-fluid bgcolor_purple cf2_design">
+      <div className="container-fluid bgcolor_purple cf2_design" data-aos="zoom-in-up" data-aos-duration="1500">
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col_for_img">
             <img src="imagesAnima/devweb/1.png" className='img_section1_devweb' alt="" />
@@ -44,7 +44,7 @@ export default function Design() {
           </p>
         </div>
         <div className="section3">
-          <div className="row row1_section3 row1_section3_design">
+          <div className="row row1_section3 row1_section3_design" data-aos="fade-up" data-aos-duration="2000">
             <div className="col-lg-6 img1_section3 img1_1_section3 img1_design"></div>
             <div className="col-lg-6 col_row1_section3_devweb col_1_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">
@@ -52,7 +52,7 @@ export default function Design() {
               </p>
             </div>
           </div>
-          <div className="row row1_section3 row2_section3 row1_section3_design">
+          <div className="row row1_section3 row2_section3 row1_section3_design" data-aos="fade-right" data-aos-duration="2000">
 
             <div className="col-lg-6 col_row1_section3_devweb bgColor_white ">
               <p className="p_section3_devweb">
@@ -61,7 +61,7 @@ export default function Design() {
             </div>
             <div className="col-lg-6 img1_section3 img2_section3 img2_design" ></div>
           </div>
-          <div className="row row1_section3 row1_section3_design">
+          <div className="row row1_section3 row1_section3_design" data-aos="fade-left" data-aos-duration="2000">
             <div className="col-lg-6 img1_section3 img3_section3 img3_design"></div>
             <div className="col-lg-6 col_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">
@@ -69,7 +69,7 @@ export default function Design() {
               </p>
             </div>
           </div>
-          <div className="row row1_section3 row2_section3 row1_section3_design">
+          <div className="row row1_section3 row2_section3 row1_section3_design" data-aos="fade-down" data-aos-duration="2000">
 
             <div className="col-lg-6 col_row1_section3_devweb col_4_row1_section3_devweb bgColor_white">
               <p className="p_section3_devweb">

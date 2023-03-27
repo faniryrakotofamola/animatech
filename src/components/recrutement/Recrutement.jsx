@@ -8,19 +8,19 @@ export default function Recrutement() {
   return (
     <>
       <Navbar />
-      <div className="container-fluid cf_realisation cf_recrutement">
-        <div className="content">
+      <div className="container-fluid cf_realisation cf_recrutement" data-aos="flip-left" data-aos-duration="1500">
+        <div className="content" data-aos="fade-left" data-aos-duration="1500">
           <h1 className='h1_realisation h1_recrutement'>
             Nos<br />recrutements
           </h1>
-          <p className='p_realisation'>
+          <p className='p_realisation' data-aos="flip-right">
             Rejoignez-nous <br />
             Opportunités proposées par l’agence web Sokeo. Postes basés à Marseille 13001
           </p>
         </div>
       </div>
       <section className='container-fluid cf_section_recrutement'>
-        <div className="row row1_realisation">
+        <div className="row row1_realisation" data-aos="fade-up" data-aos-duration="1500">
           <div className="col-lg-7 col1_realisation col1_recrutement">
             <div className="content_realisation_section1 content_recutement_section1">
               <h1 className='h1_1_realisation h1_1_recrutement'>
@@ -40,7 +40,7 @@ export default function Recrutement() {
             <img src="imagesAnima/recrutement/1.png" className='img_section1_realisation' alt="" />
           </div>
         </div>
-        <div className="row row2_realisation">
+        <div className="row row2_realisation" data-aos="fade-right" data-aos-duration="1500">
           <div className="col-lg-5 col2_realisation col2_1_realisation">
             <img src="imagesAnima/recrutement/2.png" className='img_section1_realisation img1_section1_realisation' alt="" />
           </div>
@@ -58,7 +58,7 @@ export default function Recrutement() {
             </div>
           </div>
         </div>
-        <div className="row row1_realisation">
+        <div className="row row1_realisation" data-aos="fade-left" data-aos-duration="1500">
           <div className="col-lg-7 col1_realisation col1_recrutement">
             <div className="content_realisation_section1 content_recutement_section1">
               <h1 className='h1_1_realisation h1_1_recrutement'>
@@ -78,7 +78,7 @@ export default function Recrutement() {
             <img src="imagesAnima/recrutement/3.png" className='img_section1_realisation' alt="" />
           </div>
         </div>
-        <div className="row row2_realisation">
+        <div className="row row2_realisation" data-aos="fade-down" data-aos-duration="1500">
           <div className="col-lg-5 col2_realisation col2_1_realisation">
             <img src="imagesAnima/recrutement/4.png" className='img_section1_realisation img1_section1_realisation' alt="" />
           </div>
