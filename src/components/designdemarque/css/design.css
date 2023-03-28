@@ -4,6 +4,7 @@
 }
 .banner_design{
   background-image: url(/public/imagesAnima/design/bgimage.PNG) !important;
+  margin-top: 86px;
 }
 .img1_design{
   background-image: url(/public/imagesAnima/design/1.png) !important;

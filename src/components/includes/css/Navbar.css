@@ -12,9 +12,11 @@
 }
 .navbar1{
     background-color: rgba(31, 26, 75, 1);
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 99999999999999;
+    left: 0;
+    z-index:99999999999999999999999;
+    width:100%;
 }
 
 .dropdown1{

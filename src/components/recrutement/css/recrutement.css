@@ -1,5 +1,6 @@
 .cf_recrutement{
   background-image: url(/public/imagesAnima/recrutement//bg.png);
+  margin-top: 86px;
 }
 
 .col1_recrutement::after{

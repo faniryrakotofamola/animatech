@@ -12,6 +12,7 @@ import ErrorPage from './components/error/ErrorPage';
 // import OutilsEtTechnologies from './components/includes/OutilsEtTechnologies';
 import Aos from 'aos';
 import { useEffect } from 'react';
+import Loader from './components/Loader/Loader';
 import Realisation from './components/realisation/Realisation';
 import Recrutement from './components/recrutement/Recrutement';
 
@@ -23,7 +24,7 @@ function App() {
     <Router >
       <Routes >
         <Route path="/" exact element={<Home />} />
-        {/* <Route path="/navbar" exact element={<Navbar />} /> */}
+        <Route path="/loader" exact element={<Loader />} />
         {/* <Route path="/footer" exact element={<Footer />} /> */}
         <Route path="/devweb" exact element={<DevWeb />} />
         <Route path="/devmobile" exact element={<DevMobile />} />

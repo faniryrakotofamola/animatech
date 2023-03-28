@@ -133,6 +133,15 @@
     padding: 25px 0;
 }
 
+@media screen and (max-width: 390px) {
+  .content_avis {
+    padding: 34px 5px;
+    border: 1px solid #00000024;
+}
+.p_h2 {
+    width: fit-content;
+}
+}
 
 @media screen and (max-width: 576px) {
   .arrow_left, .arrow_right{
