@@ -22,8 +22,8 @@ export default function Footer() {
             data-aos="fade-right"
             data-aos-duration="2500">
             <Link to="#"><img src="imagesAnima/icon/insta.png" alt="" /></Link>
-            <Link to="#"><img src="imagesAnima/icon/facebook.png" alt="" /></Link>
-            <Link to="#"><img src="imagesAnima/icon/linkedIn.png" alt="" /></Link>
+            <Link to="https://www.facebook.com/people/ANIMA/100064087510294/"><img src="imagesAnima/icon/facebook.png" alt="" /></Link>
+            <Link to="https://www.linkedin.com/in/anima-technologie-b772b5265/"><img src="imagesAnima/icon/linkedIn.png" alt="" /></Link>
             <Link to="#"><img src="imagesAnima/icon/twitter.png" alt="" /></Link>
           </div>
         </div>

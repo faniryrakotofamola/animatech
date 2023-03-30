@@ -25,7 +25,7 @@ export default function Design() {
         <div className="container-fluid banner_devweb banner_design">
           <div className="content_devweb">
             <h1 className="h1_banner_devweb" data-aos="fade-right" data-aos-duration="1500" >
-              Design <span className='span_h1_banner_devweb'>de marque</span>
+              Design <span className='span_h1_banner_devweb'><br />de marque</span>
             </h1>
             <p className="p_banner_devweb" data-aos="fade-left" data-aos-duration="1500" >
               l’UX et l’UI sont essentiels pour votre site web car ils peuvent aider à attirer des visiteurs, réduire les taux de rebond, augmenter le temps de visite, améliorer les taux de conversion et créer une image de marque forte. En investissant dans la conception UX/UI de votre site web ou application mobile, vous pouvez améliorer l’expérience utilisateur et augmenter les chances de réussite de votre entreprise en ligne.

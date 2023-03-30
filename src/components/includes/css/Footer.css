@@ -240,6 +240,6 @@
 }
 @media screen and (min-width: 1400px) {
 .reseau_sociaux_footer {
-    height: 16%;
+    height: fit-content;
 }
 }

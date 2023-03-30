@@ -35,18 +35,18 @@ export default function Contact() {
                       <input type="email" name="" id="" placeholder='Email *' className='form-control form_control_contact' data-aos="fade-left" data-aos-duration="1500" /> <br />
                       <input type="text" name="" id="" placeholder='Objectif *' className='form-control form_control_contact' data-aos="fade-right" data-aos-duration="1500" /> <br />
                       <textarea name="message" id="" cols="30" rows="5" placeholder='Message' className='form-control form_control_contact' data-aos="fade-left" data-aos-duration="1500" ></textarea> <br />
-                      <button className="btn-primary form-control btn_contact" data-aos="zoom-in" data-aos-duration="1500" >Envoyer</button>
+                      <button className="btn-primary form-control btn_contact" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset='0'>Envoyer</button>
                     </div>
                   </div>
                 </div>
                 <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12" id='col2_contact'>
                   <div className="trait_violet trait_violet0"></div>
                   <img src="imagesAnima/contact/bg.png" className='img_contact' alt="" />
-                  <div className="trait_violet trait_violet1" data-aos="fade-right" data-aos-duration="1500" >
-                    <img src="imagesAnima/icon/insta.png" alt="" />
-                    <img src="imagesAnima/icon/facebook.png" alt="" />
-                    <img src="imagesAnima/icon/linkedIn.png" alt="" />
-                    <img src="imagesAnima/icon/twitter.png" alt="" />
+                  <div className="trait_violet trait_violet1" data-aos="fade-right" data-aos-duration="1500" data-aos-offset='0'>
+                    <Link to="#"><img src="imagesAnima/icon/insta.png" alt="" /></Link>
+                    <Link to="https://www.facebook.com/people/ANIMA/100064087510294/"><img src="imagesAnima/icon/facebook.png" alt="" /></Link>
+                    <Link to="https://www.linkedin.com/in/anima-technologie-b772b5265/"><img src="imagesAnima/icon/linkedIn.png" alt="" /></Link>
+                    <Link to="#"><img src="imagesAnima/icon/twitter.png" alt="" /></Link>
                   </div>
 
                 </div>
