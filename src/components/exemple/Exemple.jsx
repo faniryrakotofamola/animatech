@@ -14,19 +14,58 @@ export default class Exemple extends Component {
       centerPadding: "60px",
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay: true,
+      // autoplay: true,
       focusOnSelect: true,
-      speed: 100
+      speed: 100,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        // {
+        //   breakpoint: 600,
+        //   settings: {
+        //     slidesToShow: 1,
+        //     slidesToScroll: 1,
+        //     initialSlide: 2,
+        //     centerMode: false,
+
+        //   }
+        // },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: false,
+
+          }
+        }
+      ]
     };
     return (
       <div className='container-fluid cf_exemple'>
         <Slider {...settings}>
           <div className='slick_equipe'>
             <div className="row row_exemple">
-              <div className="col-lg-5">
+              <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                 <img src="imagesAnima/equipe/1.png" alt="" className="img_exemple" />
               </div>
-              <div className="col-lg-7 col2_exemple">
+              <div className="col-xl-7 col-lg-7 col-md-5 col-sm-7 col2_exemple">
                 <h1 className='h1_exemple'>Julien Colomb</h1>
                 <h2 className='h2_exemple'>CO-FONDATEUR & DEVELOPEUR</h2>
                 <div className="icon_exemple">
@@ -50,10 +89,10 @@ export default class Exemple extends Component {
           </div>
           <div className='slick_equipe'>
             <div className="row row_exemple">
-              <div className="col-lg-5">
+              <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                 <img src="imagesAnima/equipe/2.png" alt="" className="img_exemple" />
               </div>
-              <div className="col-lg-7 col2_exemple">
+              <div className="col-xl-7 col-lg-7 col-md-5 col-sm-7 col2_exemple">
                 <h1 className='h1_exemple'>Rabe Koto</h1>
                 <h2 className='h2_exemple'>DEVELOPEUR</h2>
                 <div className="icon_exemple">
@@ -77,10 +116,10 @@ export default class Exemple extends Component {
           </div>
           <div className='slick_equipe'>
             <div className="row row_exemple">
-              <div className="col-lg-5">
+              <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                 <img src="imagesAnima/equipe/3.png" alt="" className="img_exemple" />
               </div>
-              <div className="col-lg-7 col2_exemple">
+              <div className="col-xl-7 col-lg-7 col-md-5 col-sm-7 col2_exemple">
                 <h1 className='h1_exemple'>Rakoto  Kapoka</h1>
                 <h2 className='h2_exemple'>Commercials</h2>
                 <div className="icon_exemple">
@@ -104,10 +143,10 @@ export default class Exemple extends Component {
           </div>
           <div className='slick_equipe'>
             <div className="row row_exemple">
-              <div className="col-lg-5">
+              <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                 <img src="imagesAnima/equipe/4.png" alt="" className="img_exemple" />
               </div>
-              <div className="col-lg-7 col2_exemple">
+              <div className="col-xl-7 col-lg-7 col-md-5 col-sm-7 col2_exemple">
                 <h1 className='h1_exemple'>Rbezafy kely</h1>
                 <h2 className='h2_exemple'>TRANSITAIRE</h2>
                 <div className="icon_exemple">
@@ -131,10 +170,10 @@ export default class Exemple extends Component {
           </div>
           <div className='slick_equipe'>
             <div className="row row_exemple">
-              <div className="col-lg-5">
+              <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                 <img src="imagesAnima/equipe/5.png" alt="" className="img_exemple" />
               </div>
-              <div className="col-lg-7 col2_exemple">
+              <div className="col-xl-7 col-lg-7 col-md-5 col-sm-7 col2_exemple">
                 <h1 className='h1_exemple'>JAOJAOBY BE</h1>
                 <h2 className='h2_exemple'>SECTRETAIRES</h2>
                 <div className="icon_exemple">

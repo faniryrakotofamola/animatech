@@ -7,7 +7,7 @@
 } */
 
 .cf_exemple .slick-slide:where(.slick-active){
-  /* background-color: rgb(47, 71, 255) !important; */
+  background-color: rgb(47, 71, 255) !important;
   /* width: 350px !important; */
   height: 50vh;
 }
@@ -29,7 +29,7 @@
 }
 
 .cf_exemple .slick-track{
-  height: 90vh !important;
+  height: 99vh !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,38 +40,31 @@
   align-items: center;
   justify-content: center;
 }
-.cf_exemple .slick-slide:where(.slick-current){
-  /* height: 90vh !important; */
-  display: flex;
-  align-items: normal;
-  justify-content: left;
-}
 
 .cf_exemple .slick-slide:where(.slick-current){
   display: flex;
   flex-direction: column;
+  align-items: normal;
+  justify-content: left;
   margin-left: 0;
   border-radius: 5px;
 }
-.cf_exemple .slick-slide:where(.slick-current) .img_exemple{
- border-radius: 15px;
-}
 
-.h1_exemple{
-  font-size: 12px;
-  display: block;
+.h1_exemple {
+    font-size: 12px;
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 5px;
 }
 .h2_exemple{
   font-size: 10px;
   display: block;
-
 }
 
-.p_exemple{
+.p_exemple {
   font-size: 11px;
-  padding: 0 26px;
+  padding: 36px 26px;
   display: block;
-
 }
 
 .cf_exemple .slick-slide:where(.slick-current) .img_exemple{
@@ -80,6 +73,7 @@
   position: fixed;
   top: -75px;
   left: 41px;
+  border-radius: 15px;
 }
 
 .img_exemple{
@@ -111,4 +105,36 @@
 }
 .cf_exemple .slick-slide:not(.slick-current) .p_exemple {
   display: none !important ;
+}
+
+@media screen and (max-width: 576px) {
+  .cf_exemple .slick-slide:where(.slick-current) {
+    transform: scale(1) !important;
+    background-color: red ;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: fit-content;
+}
+  .cf_exemple .slick-slide:where(.slick-current) .img_exemple {
+    width: 134px;
+    height: auto;
+    position: fixed;
+    top: -75px;
+    left: 104px;
+    border-radius: 15px;
+} 
+  .h1_exemple {
+    padding-left: 0;
+    text-align: center;
+  }
+  .h2_exemple {
+     padding-left: 0;
+      text-align: center;
+  }
+  .icon_exemple {
+    width: 267px;
+    padding-left: 95px;
+    /* text-align: center; */
+    align-items: center;
+}
 }
