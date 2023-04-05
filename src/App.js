@@ -14,7 +14,7 @@ import Aos from 'aos';
 import { useEffect } from 'react';
 import Loader from './components/Loader/Loader';
 import AvisClient from './components/avisclient/AvisClient';
-import Exemple from './components/exemple/Exemple';
+import Equipe from './components/equipe/Equipe';
 import Realisation from './components/realisation/Realisation';
 import Recrutement from './components/recrutement/Recrutement';
 
@@ -27,7 +27,8 @@ function App() {
       <Routes >
         <Route path="/" exact element={<Home />} />
         <Route path="/loader" exact element={<Loader />} />
-        <Route path="/exemple" exact element={<Exemple />} />
+        <Route path="/equipe" exact element={<Equipe />} />
+        <Route path="/details" exact element={<teamDetails />} />
         <Route path="/devweb" exact element={<DevWeb />} />
         <Route path="/devmobile" exact element={<DevMobile />} />
         <Route path="/devlogiciels" exact element={<DevLogiciels />} />

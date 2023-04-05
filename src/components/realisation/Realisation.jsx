@@ -71,7 +71,7 @@ export default function Realisation() {
               </div>
             </div>
           </div>
-          <div className="row row1_realisation" data-aos="fade-up" data-aos-duration="1500">
+          <div className="row row1_realisation" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
             <div className="col-lg-7 col1_realisation">
               <div className="content_realisation_section1">
                 <h1 className='h1_1_realisation'>Lorem ipsum dolor sit</h1>
@@ -88,7 +88,7 @@ export default function Realisation() {
               <img src="imagesAnima/realisation/1.png" className='img_section1_realisation' alt="" />
             </div>
           </div>
-          <div className="row row2_realisation" data-aos="fade-right" data-aos-duration="1500">
+          <div className="row row2_realisation" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300">
             <div className="col-lg-5 col2_realisation col2_1_realisation">
               <img src="imagesAnima/realisation/1.png" className='img_section1_realisation img1_section1_realisation' alt="" />
             </div>

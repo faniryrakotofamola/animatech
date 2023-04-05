@@ -1,3 +1,4 @@
+import emailjs from "emailjs-com"
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from '../Loader/Loader'
@@ -5,15 +6,38 @@ import './css/contact.css'
 export default function Contact() {
 
   const [Load, setLoad] = useState(true)
+  const [status, setStatus] = useState("Envoyer")
 
   useEffect(() => {
+    emailjs.init()
     setTimeout(() => {
       setLoad(false)
     }, 2000)
   })
 
+  function SendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm("service_n9fnh0b", "template_dy434fl", e.target, "8TSuI_4oG26uJJ5iS")
+      .then(res => {
+        console.log(res);
+      }).catch(err => {
+        console.log(err);
+      })
+  }
 
-  console.log(Load);
+  function SendEMail(e) {
+    e.preventDefault();
+    console.log(e.target)
+
+    emailjs.send('gmail', "service_n9fnh0b", "template_dy434fl", e.target)
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+
+    e.target.reset()
+  }
   return Load
     ?
     (
@@ -29,14 +53,21 @@ export default function Contact() {
                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col6_1_contact">
                   <div className="content_col_contact">
                     <Link to="/" ><img src="imagesAnima/contact/Vector.png" className='arrow_goback' alt="" /></Link>
+
+                    {/* ***** FORM ******  */}
+
                     <h1 className='h1_contact' data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50" >Contactez-nous</h1>
-                    <div className="form_group">
-                      <input type="text" name="" id="" placeholder='Nom *' className='form-control form_control_contact' data-aos="fade-right" data-aos-duration="1500" /> <br />
-                      <input type="email" name="" id="" placeholder='Email *' className='form-control form_control_contact' data-aos="fade-left" data-aos-duration="1500" /> <br />
-                      <input type="text" name="" id="" placeholder='Objectif *' className='form-control form_control_contact' data-aos="fade-right" data-aos-duration="1500" /> <br />
-                      <textarea name="message" id="" cols="30" rows="5" placeholder='Message' className='form-control form_control_contact' data-aos="fade-left" data-aos-duration="1500" ></textarea> <br />
-                      <button className="btn-primary form-control btn_contact" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset='0'>Envoyer</button>
-                    </div>
+                    <form action="" method='post' onSubmit={SendEmail}  >
+                      <div className="form_group">
+                        <input type="text" name="nom" id="" placeholder='Nom *' className='form-control form_control_contact' data-aos="fade-right" data-aos-duration="1500" required /> <br />
+                        <input type="email" name="email" id="" placeholder='Email *' className='form-control form_control_contact' data-aos="fade-left" data-aos-duration="1500" required /> <br />
+                        <input type="text" name="objectif" id="" placeholder='Objectif *' className='form-control form_control_contact' data-aos="fade-right" data-aos-duration="1500" required /> <br />
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder='Message' className='form-control form_control_contact' data-aos="fade-left" data-aos-duration="1500" required></textarea> <br />
+                        <button type='submit' className="btn-primary form-control btn_contact" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset='0'>{status}</button>
+                      </div>
+                    </form>
+
+                    {/* ********* FIN FORM ********** */}
                   </div>
                 </div>
                 <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12" id='col2_contact'>

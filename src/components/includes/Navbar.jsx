@@ -40,7 +40,7 @@ function Navbar() {
               </Link>
               <div className="dropdown-menu dropdown2">
                 <Link className="dropdown-item dropdown-item1" to="/réalisation">Réalisations</Link>
-                <Link className="dropdown-item dropdown-item1" to="#">L’équipe</Link>
+                <Link className="dropdown-item dropdown-item1" to="/equipe">L’équipe</Link>
                 <Link className="dropdown-item dropdown-item1" to="/recrutement">Recrutement</Link>
               </div>
             </li>
