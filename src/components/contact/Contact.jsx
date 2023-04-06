@@ -23,21 +23,22 @@ export default function Contact() {
       }).catch(err => {
         console.log(err);
       })
-  }
-
-  function SendEMail(e) {
-    e.preventDefault();
-    console.log(e.target)
-
-    emailjs.send('gmail', "service_n9fnh0b", "template_dy434fl", e.target)
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-
     e.target.reset()
   }
+
+  // function SendEMail(e) {
+  //   e.preventDefault();
+  //   console.log(e.target)
+
+  //   emailjs.send('gmail', "service_n9fnh0b", "template_dy434fl", e.target)
+  //     .then((result) => {
+  //       console.log(result.text);
+  //     }, (error) => {
+  //       console.log(error.text);
+  //     });
+
+  //   e.target.reset()
+  // }
   return Load
     ?
     (

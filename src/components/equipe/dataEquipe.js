@@ -54,7 +54,7 @@ const data = [
     fonction: "Secrétaire Polyvalente",
     photo: "imagesAnima/equipe/Cathy1.png",
     photo1: "imagesAnima/equipe/Cathy.png",
-    bio: `Assistante administrative dans le développement web avec plus de 3ans d’expérience dans la gestion de projet, le suivi des taches et la communication avec les clients. Au cours de ma carrière, j’ai réussi à garantir la satisfaction des clients en veillant à ce que tous les détails soient pris en compte y compris la communication régulière avec eux tout au long du processus et grâce à mon travail acharné et à ma détermination, nous avons pu livrer des projets de qualité dans les délais impartis.`
+    bio: `Assistante administrative dans le développement web avec plus de 3 ans d’expérience dans la gestion de projet, le suivi des taches et la communication avec les clients. Au cours de ma carrière, j’ai réussi à garantir la satisfaction des clients en veillant à ce que tous les détails soient pris en compte y compris la communication régulière avec eux tout au long du processus et grâce à mon travail acharné et à ma détermination, nous avons pu livrer des projets de qualité dans les délais impartis.`
 
   },
   {
